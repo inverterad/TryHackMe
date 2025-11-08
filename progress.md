@@ -1,3 +1,7 @@
+# 2025-11-08
+Verkar som jag försöker köra minst en varje dag nu, får se om det håller i sig.
+![metasploitable exploitation](<bilder/Skärmbild 2025-11-08 metasploit exploitation.png>)
+
 # 2025-11-07
 Körde vidare lite lätt idag.
 ![metasploitable intro](<bilder/Skärmbild 2025-11-07 metasploit intro.png>)
