@@ -1,3 +1,48 @@
+# 2025-11-23
+Jag har senaste tiden gått genom några olika rum, men det har blivit lite här och lite där så jag skrev inte upp så mycket på vägen. Så jag tänkte gå genom mina framsteg nu i efterhand istället. <br>
+Det har varit web hacking i fokus senaste tiden och såhär ser det ut just nu:
+
+![Just nu](<bilder/Skärmbild 2025-11-23 web hacking.png>)
+
+---
+<br>
+
+![Web Application Basics](<bilder/Skärmbild 2025-11-13 web application .png>)
+
+Vi går i kronologisk ordning så vi börjar med the basics. <br>
+Inte så mycket nytt för mig här, vi går genom HTML, CSS och JS. Rummet pratar om Databases, Infrastructure och WAF. Med Infrastructure så syftas det på servrar, applikationsservrar, storage osv. WAF betyder Web Application Firewall.
+
+Intressanta delar här för mig var: <br>
+HTTP Messages, dvs HTTP Request och HTTP Response. Saker jag än inte riktigt förstår men som de försöker förklara är hur dessa är uppbyggda och används i HTTP-trafik. Jag hittade nedanstående bilder på nätet som hjälper litegrann: <br>
+![HTTP Request](bilder/http_requestmessageexample.png)<br>
+![HTTP Response](bilder/http_responsemessageexample.png)<br>
+
+Mer intressant är väl de vanliga status-koderna som t.ex.: <br>
+200 - Success <br>
+300 - Redirect <br>
+400 - Client Error (not found) <br>
+500 - Server Error <br>
+
+---
+<br>
+
+![Java Script Essentials](<bilder/Skärmbild 2025-11-13 JavaScript essentials.png>) <br>
+
+Rummet börjar med att gå genom lite grundläggande programmering och förklarar vad en variabel, funktioner och loopar är. Vi får sedan prova på att koda i javascript i en webbläsares konsoll. Det var lite kul! <br>
+Sedan får man se hur man kan integrera javascript-kod i html, antingen internal eller external. Och till slut så går vi genom minified files. Vilket var ett nytt koncept för mig. Det här kommer nog komma till användning i CTF-sammanhang i framtiden.
+<br>
+
+---
+<br>
+
+![SQL Fundamentals](<bilder/Skärmbild 2025-11-14 SQL fundamentals.png>) <br>
+Jag har gått en kurs om databaser så jag var ganska bekant med det mesta i det här rummet. Specifikt språket i SQL är jag ganska bekant med, det tog inte så länge innan jag kom in i det igen. <br>
+
+---
+<br>
+
+Jag glömde ta en screnshot av BURP Suite Basics, och det var nog lika bra. För jag har använt mig lite av BURP Suite i CTF-sammanhang och jag känner mig fortfarande ganska vilse. Med andra ord bör jag nog starta om det här rummet och köra genom det med mer uppmärksamhet, så det är min plan. Jag kommer eventuellt även starta om OWASP Top 10 2021 då jag tyckte flera aspekter där var väldigt intressanta men man fick en kortare genomgång vilket gör att det kan repeteras känner jag.
+
 # 2025-11-09
 https://tryhackme.com/room/meterpreter <br>
 Sådär. Då blev jag klar med Metasploit. Riktigt roliga rum. Jag har i vanlig ordning missförstått och läst fel på ett par ställen så man fick slita sig i håret något och testa sig fram med olika grejer innan jag insett att jag gjort fel och att då var svaret relativt enkelt. Men jag tror det bara har gett mig lite mer erfarenhet med att knappa runt inom metasploit framework. Mot slutet kändes det riktigt naturligt att söka fram en modul och ladda den med nödvändiga options-alternativ.<br><br>
