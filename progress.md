@@ -1,3 +1,20 @@
+# 2025-12-01
+## SOC Fundamentals
+Texttungt rum om saker som t.ex. <br>
+De olika rollerna, SOC Analyst Level 1, CISO osv. <br>
+what? when? where? who? why? <br>
+Även termer som SIEM, firewall, EDR osv gås genom ytligt. <br>
+
+![SOC Basics](<bilder/Skärmbild 2025-12-01 SOC basics.png>) <br>
+## Digital Forensics Fundamentals
+Även det här rummet verkar vara texttungt. <br>
+NIST definierar processen som: Collection -> Examination -> Analysis -> Reporting. <br>
+Det nämns senare lite specifika verktyg, specifikt FTK Imager, Autopsy, DumpIt och Volatility. <br>
+I slutändan fick jag prova använda exiftool och pdfinfo för att extrahera lite data ur ett par filer. <br>
+![Digital Forensics Fundamentals](<bilder/Skärmbild 2025-12-01 digital forensics basics.png>) <br>
+
+
+
 # 2025-11-29
 ## SQLMap: The Basics
 Saxar följande information rakt från TryHackMe då det var intressant: <br>
