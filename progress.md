@@ -1,3 +1,32 @@
+# 2025-12-03
+## Incident Response Fundamentals
+Fortsätter med texttunga rum, inte min favorit generellt men så får det vara.<br>
+Det pratas om true och false positives och alerts. Det står en del om incident response process och sedan lite om SIEM, antivirus och EDR. Nu diskuteras Playbooks och det känns som att jag borde inrätta ett gäng sådana för eget CTF-bruk, eller kanske runbook istället(?).<br>
+
+![Incident Response Fundamentals](<bilder/Skärmbild 2025-12-03 incident response basics.png>)<br>
+
+## Logs Fundamentals
+En del text angående olika typer av loggar så som system, security, application, audit, network och access logs. Vi går vidare och pratar om loggar som finns i Windows och lite om Windows Event Viewer. Där nämns det ett mindre gäng viktiga IDs: <br>
+
+| Event ID | Description |
+|---|---|
+| 4624 | A user account successfully logged in
+| 4625 | A user account failed to login
+| 4634 | A user account successfully logged off
+| 4720 | A user account was created
+| 4724 | An attempt was made to reset an account’s password
+| 4722 | A user account was enabled
+| 4725 | A user account was disabled
+| 4726 | A user account was deleted
+
+<br>
+En för mig intressant sak jag inte hade koll på var att man kan använda sig av <code>less</code> på mer avancerade sätt än jag visste. Man kan söka efter patterns med "/" och man kan i vanlig ordning gå framåt med spacebar och bakåt med "b". Mycket bra information! <br>
+<br>
+
+![Logs Fundamentals](<bilder/Skärmbild 2025-12-03 logs fundamentals.png>)<br>
+
+<br>
+
 # 2025-12-02
 ## Linux CLI - Shells Bells
 Jul-eventet på TryHackMe har börjat, tänkte testa första riktiga rummet och se hur det går. <br><br>
@@ -59,7 +88,7 @@ root@tbfc-web01:/home/socmas/2025$ history</code><br>
 
 ## Key for Side Quest 1
 
-Jag gick genom hela den här processen utan att skriva så mycket längst vägen. Jag klippte bara in kod och texter jag tyckte var relevant. För att hitta nyckeldel 2 så var jag tvungen att hitta en walkthrough på internet. Jag känner till git, men jag var helt fast i journalctl och kunde inte förstå hur jag tar mig vidare. Men jag hade sett att det fanns git-kataloger att titta på. Min hjärna tog sig bara inte så långt. <br>
+Jag gick genom hela den här processen utan att skriva så mycket längs vägen. Jag klippte bara in kod och texter jag tyckte var relevant. För att hitta nyckeldel 2 så var jag tvungen att hitta en walkthrough på internet. Jag känner till git, men jag var helt fast i journalctl och kunde inte förstå hur jag tar mig vidare. Men jag hade sett att det fanns git-kataloger att titta på. Min hjärna tog sig bara inte så långt. <br>
 Roligt och utmanande. Helt klart saker som kommer finnas med mig till framtida CTF:er.
 
 <code>root@tbfc-web01:/home/mcskidy/Documents$ cat read-me-please.txt</code> <br>
@@ -205,6 +234,7 @@ now_you_see_me
 
 ![now_you_see_me](<bilder/Skärmbild 2025-12-02 side_quest_1_key.png>)
 
+https://tryhackme.com/room/sq1-aoc2025-FzPnrt2SAu <- Är tydligen side questet. Får kolla in vid tillfälle.
 
 # 2025-12-01
 ## SOC Fundamentals
@@ -219,6 +249,7 @@ what? when? where? who? why? <br>
 NIST definierar processen som: Collection -> Examination -> Analysis -> Reporting. <br>
 Det nämns senare lite specifika verktyg, specifikt FTK Imager, Autopsy, DumpIt och Volatility. <br>
 I slutändan fick jag prova använda exiftool och pdfinfo för att extrahera lite data ur ett par filer. <br>
+
 ![Digital Forensics Fundamentals](<bilder/Skärmbild 2025-12-01 digital forensics basics.png>) <br>
 
 
