@@ -11,7 +11,7 @@ Namn | Effekt
 [Open VAS](https://www.openvas.org/) | Vulnerability Assessment Scanner
 [Wireshark](https://www.wireshark.org/) | Network analyzer
 [Tcpdump](https://www.tcpdump.org/) | CLI tool for capturing, analyzing, and filtering network packet data in real-time
-
+[Oledump](https://blog.didierstevens.com/programs/oledump-py/) | Analyze OLE files ( .doc, .xls, .ppt, …)
 
 
 
