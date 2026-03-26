@@ -2,7 +2,7 @@
 
 
 ## Defense
-Namn | Comment
+Name | Comment
 -|-
 [CAPA](https://github.com/mandiant/capa) | Identify capabilities in executable files
 [SPLUNK](https://www.splunk.com/) | SIEM
@@ -16,7 +16,7 @@ Namn | Comment
 
 
 ## Attack
-Namn | Comment
+Name | Comment
 -|-
 [Nmap](https://nmap.org/) | Network scanner
 [SET - Social-Engingeering Toolkit](https://github.com/trustedsec/social-engineer-toolkit) | Create phishing emails and much more
@@ -29,10 +29,13 @@ Namn | Comment
 [John (the Ripper)](https://github.com/openwall/john) | Advanced offline password cracker 
 
 ## Unsorted for now
+Name | Comment
+-|-
+[cryptsetup](https://www.man7.org/linux/man-pages/man8/cryptsetup.8.html) | LUKS Encryption tool
 
 ### Reverse Engineering & Debugging
 
-Namn | Comment
+Name | Comment
 -|-
 [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | NSA-developed open-source reverse engineering suite.
 [x64dbg](https://github.com/x64dbg/x64dbg) | Open-source debugger for binaries in x64 and x32 formats.
@@ -43,7 +46,7 @@ Namn | Comment
 
 ### Disassemblers & Decompilers
 
-Namn | Comment
+Name | Comment
 -|-
 [CFF Explorer](https://ntcore.com/explorer-suite/) | A PE editor designed to analyze and edit Portable Executable (PE) files.
 [Hopper Disassembler](https://www.hopperapp.com/) | A Debugger, disassembler, and decompiler (for MacOS?).
@@ -51,7 +54,7 @@ Namn | Comment
 
 ### Static & Dynamic Analysis
 
-Namn | Comment
+Name | Comment
 -|-
 [PEStudio](https://www.winitor.com/download) | Static analysis, windows
 [Process Hacker](https://systeminformer.sourceforge.io/) (Now System Informer?) | Sophisticated memory editor and process watcher.
@@ -61,7 +64,7 @@ Namn | Comment
 
 ### Forensics & Incident Response
 
-Namn | Comment
+Name | Comment
 -|-
 Volatility | RAM dump analysis framework for memory forensics.
 Rekall | Framework for memory forensics in incident response.
@@ -69,13 +72,13 @@ FTK Imager | Disc image acquisition and analysis tools for forensic use.
 
 ### Network Analysis
 
-Namn | Comment
+Name | Comment
 -|-
 Netcat | Read and write data across network connections with this helpful tool.
 
 ### File Analysis
 
-Namn | Comment
+Name | Comment
 -|-
 FileInsight | A program for looking through and editing binary files.
 Hex Fiend | Hex editor that is light and quick.
@@ -83,14 +86,14 @@ HxD | Binary file viewing and editing with a hex editor.
 
 ### Scripting & Automation
 
-Namn | Comment
+Name | Comment
 -|-
 Python | Mainly automation-focused on Python modules and tools.
 PowerShell Empire | Framework for PowerShell post-exploitation.
 
 ### Sysinternals Suite
 
-Namn | Comment
+Name | Comment
 -|-
 Autoruns | Shows what executables are configured to run during system boot-up.
 Process Explorer | Provides information about running processes.
